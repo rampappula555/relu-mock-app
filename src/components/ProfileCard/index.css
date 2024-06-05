@@ -1,0 +1,45 @@
+.profile-card {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  height: 90px;
+  padding-left: 30px;
+  border-radius: 10px;
+  width: 70%;
+}
+
+.profile-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+}
+
+.profile-info {
+  margin-left: 30px;
+  /* top: 263px;
+left: 1217px; */
+  /* width: 118px; */
+  /* height: 19px; */
+  text-align: left;
+  font: normal normal 600 16px/19px Gilroy;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.profile-info h4 {
+  margin: 0;
+}
+
+.profile-info span {
+  /* font: normal normal 600 16px/19px Gilroy */
+  top: 289px;
+  left: 1217px;
+  width: 93px;
+  height: 14px;
+  text-align: left;
+  font: normal normal medium 12px/14px Gilroy;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}

@@ -1,0 +1,93 @@
+.login-page {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  height: 80vh;
+}
+
+.welcome-section {
+  width: 50%;
+  padding: 2rem;
+}
+
+.welcome-section h1 {
+  font-size: 2rem;
+}
+
+.welcome-section p {
+  margin: 1rem 0;
+}
+
+.welcome-section .join-now {
+  display: inline-block;
+  margin-top: 1rem;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.illustration {
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.login-section {
+  width: 40%;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.login-section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form input {
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.recover-password {
+  align-self: flex-end;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  color: #007bff;
+  background-color: transparent;
+  border: none;
+}
+
+.login-button {
+  padding: 0.75rem;
+  background-color: #007bff;
+  border: none;
+  color: #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.alternative-signin {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.alternative-signin span {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.social-buttons button {
+  margin: 0 0.5rem;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

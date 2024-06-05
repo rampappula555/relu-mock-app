@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: #ffffff;
+}
+
+.language select {
+  border: none;
+  background: transparent;
+  font-size: 1rem;
+}
+
+.auth-links a {
+  margin: 0 0.5rem;
+  text-decoration: none;
+  color: #007bff;
+}
+.active {
+  border: 1px solid #007bff;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+.auth-links .register {
+  padding: 0.5rem 1rem;
+
+  color: #007bff;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.auth-links .register:hover {
+  background-color: #007bff;
+  color: #ffffff;
+  border-radius: 5px;
+}
