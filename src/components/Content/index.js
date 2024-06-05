@@ -39,7 +39,9 @@ const Content = () => {
                   className="user-avatar"
                 />
                 <div className="user-info">
-                  <h3 style={{ margin: 0 }}>Lara Leones</h3>
+                  <h3 style={{ margin: 0, paddingRight: "30px" }}>
+                    Lara Leones
+                  </h3>
                   <span className="username">@thewallart</span>
                   <span className="badge">1140</span>
                 </div>
@@ -76,7 +78,7 @@ const Content = () => {
               <div style={{ display: "flex", alignItems: "center" }}>
                 <img src={imadClick} alt="Thomas J." className="user-avatar" />
                 <div className="user-info">
-                  <h3 style={{ margin: 0 }}>Thomas J.</h3>
+                  <h3 style={{ margin: 0, paddingRight: "90px" }}>Thomas J.</h3>
                   <span className="username">@thecustomcreater</span>
                   <span className="badge">980</span>
                 </div>
