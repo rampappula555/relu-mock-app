@@ -21,7 +21,6 @@ const SignUpPage = () => {
         // Signed up
         navigate("/", { replace: true });
         const user = userCredential.user;
-        console.log(user);
         setCurrentUser(user.uid);
         Cookies.set("userDetails", user.uid, { expires: 30 });
         // ...

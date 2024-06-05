@@ -15,7 +15,7 @@ import like from "../../assets/heart.jpg";
 import comment from "../../assets/comment.jpg";
 import share from "../../assets/share.jpg";
 import imadClick from "../../assets/pexels-imad-clicks-9810659.png";
-import imgTobias from "../../assets/pexels-tobias-bjørkli-2236382.png";
+import imgTobias from "../../assets/pexels-tobias-bjrkli-2236382.png";
 
 const Content = () => {
   return (
