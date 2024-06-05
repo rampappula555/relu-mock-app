@@ -9,8 +9,8 @@ import { useNavigate } from "react-router-dom";
 import Cookies from "js-cookie";
 import Header from "../Header";
 const LoginPage = () => {
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
+  const [email, setEmail] = useState("mockapp@reluconsultancy.com");
+  const [password, setPassword] = useState("123456");
   const [errorMsg, setErrorMsg] = useState("");
 
   const navigate = useNavigate();

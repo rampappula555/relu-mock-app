@@ -23,6 +23,7 @@ const SignUpPage = () => {
         const user = userCredential.user;
         setCurrentUser(user.uid);
         Cookies.set("userDetails", user.uid, { expires: 30 });
+
         // ...
       })
       .catch((error) => {
